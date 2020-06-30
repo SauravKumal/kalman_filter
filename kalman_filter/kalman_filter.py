@@ -25,13 +25,13 @@ def getData():
         data = data.astype(np.float)
         data = data[2:]
         acceleration_data.append(data[0])
-        interval.append(time.time()-start_time)
+        interval.append((time.time()-start_time)/1000)
 
 
 getDataThread = threading.Thread(target = getData)
 getDataThread.start()
 
-style.use('fivethirtyeight')
+style.use('seaborn-ticks')
 fig = plt.figure()
 ax1 = fig.add_subplot(1,1,1)
 
