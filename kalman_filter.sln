@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "kalman_filter", "kalman_filter\kalman_filter.pyproj", "{FB674076-1E30-47D5-8B1B-88B4A4657853}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB674076-1E30-47D5-8B1B-88B4A4657853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB674076-1E30-47D5-8B1B-88B4A4657853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB30D710-E321-49D4-AE99-AE2ADBCCD259}
+	EndGlobalSection
+EndGlobal
