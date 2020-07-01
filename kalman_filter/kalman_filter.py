@@ -1,14 +1,15 @@
 import socket
 import numpy as np
 import time
+import collections
 import threading
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 from matplotlib import style
 
 
-acceleration_data=[]
-interval = []
+acceleration_data=collections.deque(100*[0],100)
+interval = collections.deque(100*[0],100)
 
 def getData():
     start_time = time.time()
