@@ -7,7 +7,6 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 from matplotlib import style
 
-
 acceleration_data=collections.deque(100*[0],100)
 interval = collections.deque(100*[0],100)
 
@@ -28,7 +27,6 @@ def getData():
         acceleration_data.append(data[0])
         interval.append((time.time()-start_time)/1000)
 
-
 getDataThread = threading.Thread(target = getData)
 getDataThread.start()
 
@@ -44,5 +42,3 @@ def animate(i):
 
 anime = animation.FuncAnimation(fig,animate,interval=50)
 plt.show()
-
-    
